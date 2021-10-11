@@ -33,22 +33,3 @@ result = sum_s/(len(marks)-1)
 sd = math.sqrt(result)
 
 print(result, sd)
-
-
-'''with open('class_1.csv', newline='') as f:
-    f_read = csv.reader(f)
-    data = list(f_read)
-data.pop(0)
-
-sum = 0
-n = len(data)
-for i in data:
-    sum += float(i[1])
-mean = sum/n
-
-print('The mean score is', str(mean),'%')
-
-df = pd.read_csv('class_2.csv')
-scatter = px.scatter(df, x='Student Number', y="Marks")
-
-scatter.show()'''
